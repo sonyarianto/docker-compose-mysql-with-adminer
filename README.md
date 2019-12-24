@@ -11,8 +11,8 @@ It will spin the MySQL latest version, expose port to host at 3306 and ready con
 
 ## MySQL credential
 
-Username: root
-Password: rootpassword
+- Username: root
+- Password: rootpassword
 
 ## How to connect to MySQL
 
