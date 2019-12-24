@@ -35,10 +35,10 @@ It will spin the MySQL latest version, expose port to host at 3306 and ready con
 
 ## How to connect to MySQL
 
-### Adminer
+### Via Adminer
 Go to http://localhost:8080
 
-### Command Line
+### Via command line
 Make sure you have MySQL client installed and `mysql` command in CLI available.
 
 ```
