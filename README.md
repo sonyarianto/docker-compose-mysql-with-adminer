@@ -1,5 +1,5 @@
 # docker-compose-mysql-with-adminer
-Local MySQL Docker = Docker Compose + MySQL + Adminer
+Local MySQL = Docker + Docker Compose + MySQL Docker image + Adminer Docker image
 
 ## Usage
 
