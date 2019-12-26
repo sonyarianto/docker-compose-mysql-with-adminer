@@ -1,7 +1,7 @@
 # docker-compose-mysql-with-adminer
 Local MySQL = Docker + Docker Compose + MySQL Docker image + Adminer Docker image
 
-## Usage
+## Usage (start server)
 
 On folder that contains `docker-compose.yml` type one of this.
 
@@ -15,6 +15,10 @@ or
 docker-compose up -d
 ```
 
+It will spin the MySQL latest version, expose port to host at 3306 and ready connection via Adminer.
+
+## Usage (stop server)
+
 To shutdown database without delete the data that already created
 
 ```
@@ -25,8 +29,6 @@ To shutdown database and delete all data that already created
 ```
 docker-compose down
 ```
-
-It will spin the MySQL latest version, expose port to host at 3306 and ready connection via Adminer.
 
 ## MySQL credential
 
