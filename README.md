@@ -53,4 +53,4 @@ or
 mysql -uroot -prootpassword --protocol=TCP
 ```
 
-Enjoy your local MySQL database server for testing purpose.
+Enjoy your local MySQL database server for any purpose you want, for me this setup is fine for testing purpose.
