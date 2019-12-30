@@ -19,16 +19,18 @@ It will spin the MySQL latest version, expose port to host at 3306 and ready con
 
 ## Usage (stop server)
 
-To shutdown database without delete the data that already created
+To shutdown database without remove the container.
 
 ```
 docker-compose stop
 ```
 
-To shutdown database and delete all data that already created
+To shutdown database and remove the container.
 ```
 docker-compose down
 ```
+
+Is data that already created will gone? No, since in the Docker Compose file you can see that we utilize data container named `mysql_db_data_container` to store the MySQL data.
 
 ## MySQL credential
 
