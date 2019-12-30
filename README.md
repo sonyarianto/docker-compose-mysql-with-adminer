@@ -15,7 +15,7 @@ or
 docker-compose up -d
 ```
 
-It will spin the MySQL latest version, expose port to host at 3306 and ready connection via Adminer.
+It will spin the MySQL latest version, expose port to host at 3306 and ready connection via Adminer or `mysql` CLI command.
 
 ## Usage (stop server)
 
